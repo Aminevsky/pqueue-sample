@@ -4,7 +4,7 @@
   "description": "Sample project for p-queue",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --noEmit && rm -rf dist && node build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Aminevsky",
